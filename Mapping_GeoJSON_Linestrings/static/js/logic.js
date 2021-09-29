@@ -1,3 +1,5 @@
+// Add console.log to check to see if our code is working.
+console.log("working");
 
 //Create Tile Layer for the Map that will be the background of the map
 let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token={accessToken}', {
