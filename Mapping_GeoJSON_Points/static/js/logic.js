@@ -1,3 +1,5 @@
+// Add console.log to check to see if our code is working.
+console.log("working");
 
 //Create Tile Layer for the Map that will be the background of the map
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -46,7 +48,3 @@ d3.json(airportData).then(function(data) {
     // Creating a GeoJSON layer with the retrieved data.
     L.geoJson(data).addTo(map);
 });
-
-
-
-
